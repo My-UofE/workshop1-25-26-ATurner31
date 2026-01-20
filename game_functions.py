@@ -4,7 +4,7 @@ import random
 def pick_value(poss_values):
     #x = random.choice(poss_values)
     #print(poss_values)
-    median_position = (len(poss_values)/2)+1
+    median_position = (len(poss_values)/2)
     x = poss_values[int(median_position)]
     return x
 
