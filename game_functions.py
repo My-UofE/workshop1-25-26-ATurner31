@@ -4,14 +4,7 @@ import random
 def pick_value(poss_values):
     #x = random.choice(poss_values)
     #print(poss_values)
-    median_position = 0
-    half_length = (len(poss_values)/2)
-    if len(poss_values) == 1:
-        return poss_values[0]
-    if half_length % 2 == 0: #required half of list has even length
-        median_position = half_length
-    else:
-        median_position = ((len(poss_values))+1)/2
+    median_position = (len(poss_values)/2)
     x = poss_values[int(median_position)]
     return x
 
